@@ -1,0 +1,52 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(block
+	(rect 464 120 760 456)
+	(text "HalfAdder" (rect 5 5 66 24)(font "Intel Clear" (font_size 8)))	(text "inst" (rect 5 316 21 333)(font "Intel Clear" ))	(block_io "A" (input))
+	(block_io "B" (input))
+	(block_io "S" (output))
+	(block_io "C" (output))
+)
+(block
+	(rect 856 120 1136 464)
+	(text "FullAdder" (rect 5 5 62 24)(font "Intel Clear" (font_size 8)))	(text "inst1" (rect 5 324 27 341)(font "Intel Clear" ))	(block_io "A" (input))
+	(block_io "B" (input))
+	(block_io "Cin" (input))
+	(block_io "S" (output))
+	(block_io "Cout" (output))
+)
+(block
+	(rect 1176 120 1488 472)
+	(text "FourBitsAdder" (rect 5 5 89 24)(font "Intel Clear" (font_size 8)))	(text "inst2" (rect 5 332 27 349)(font "Intel Clear" ))	(block_io "A0" (input))
+	(block_io "A1" (input))
+	(block_io "A2" (input))
+	(block_io "A3" (input))
+	(block_io "B0" (input))
+	(block_io "B1" (input))
+	(block_io "B2" (input))
+	(block_io "B3" (input))
+	(block_io "S0" (output))
+	(block_io "S1" (output))
+	(block_io "S2" (output))
+	(block_io "S3" (output))
+)
